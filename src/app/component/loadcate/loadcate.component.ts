@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import {CateRoomService} from '../../cate-room.service';
-// import {CateRoomService} from '../../cate-room.service';
 
 @Component({
   selector: 'app-loadcate',
@@ -8,8 +7,8 @@ import {CateRoomService} from '../../cate-room.service';
   styleUrls: ['./loadcate.component.css']
 })
 export class LoadcateComponent implements OnInit {
-  cateRoom: Cateroom[] = [];
-  cateRoomRegisInfo: Cateroom;
+  cateRoom: CateRoom[] = [];
+  cateRoomRegisInfo: CateRoom;
   form: any = {};
   constructor(private cateRoomService: CateRoomService) { }
 
