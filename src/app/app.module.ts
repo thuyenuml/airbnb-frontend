@@ -14,8 +14,9 @@ import { NotFoundComponent } from './component/not-found/not-found.component';
 import {httpInterceptorProviders} from './auth-interceptor';
 import {Permissions} from './services/deactive/permissions';
 import {AuthGuardService} from './services/deactive/auth-guard.service';
-import { FileComponent } from './component/file/file.component';
 import { LoadcateComponent } from './component/loadcate/loadcate.component';
+import {FileComponent} from './component/file/file.component';
+import { AddHomeComponent } from './component/add-home/add-home.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { LoadcateComponent } from './component/loadcate/loadcate.component';
     UserComponent,
     NotFoundComponent,
     FileComponent,
-    LoadcateComponent
+    LoadcateComponent,
+    AddHomeComponent
   ],
   imports: [
     BrowserModule,
